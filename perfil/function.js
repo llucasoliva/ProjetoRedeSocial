@@ -42,8 +42,9 @@ async function getProfile(id) {
   try {
     const leagueData = await fetch(`https://br1.api.riotgames.com/lol/league/v4/entries/by-summoner/${id}?api_key=${API_KEY}`, options)
       .then(response => response.json());
+      console.log(leagueData)
 
-    const infosoloq = leagueData[1];
+    const infosoloq = leagueData[0];
     const tier = infosoloq.tier;
     const rank = infosoloq.rank;
 
