@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gather Arcade</title>
+  <!-- Fonte -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;700&display=swap" rel="stylesheet">
+  <!-- Estilos -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Scripts -->
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="  crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
+  <!-- Progress Bar -->
+  <script src="js/progressbar.min.js"></script>
+  <!-- Parallax -->
+  <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container" id="nav-container">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <a class="navbar-brand" href="index.html">Gather Arcade</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" id="login-menu" href="../login-pag/index.html"><i class="fas fa-user"></i> Login</a>
+            <a class="nav-item nav-link" id="cadastro-menu" href="../cadastro-master/index.html">Cadastre-se</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container-fluid">
+            <!--slider-->
+            <div id="mainSlider" class="carousel slide" slide data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+                    <li data-target="#mainSlider" data-slide-to="1"></li>
+                    <li data-target="#mainSlider" data-slide-to="2"></li>
+                    <li data-target="#mainSlider" data-slide-to="3"></li>
+
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/DOTA 2.jpg" alt="Dota 2" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="img/FORTNITE.jpg" alt="Fortnite" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="img/LOL.jpg" alt="LoL" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/VALORANT.jpg" alt="Valorant" class="d-block w-100">
+                    </div>
+                </div>
+                <a href="#mainSlider" class="carousel-control-prev" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a href="#mainSlider" class="carousel-control-next" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+      <!-- Informações da rede social -->
+      <div id="services-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 service-box">
+              <h4>Quem Somos</h4>
+              <p>Somos uma rede social voltada para a comunidade gamer, oferecendo uma plataforma online para os jogadores se conectarem, compartilharem experiências, criarem grupos e se manterem atualizados sobre novidades no mundo dos games. É uma forma de conectar jogadores e criar uma comunidade engajada e inclusiva.</p>
+            </div>
+            <div class="col-md-4 service-box">
+              <h4>Objetivos</h4>
+              <p>O nosso principal objetivo é criar uma comunidade ativa e engajada de jogadores, onde eles possam se conectar e compartilhar suas experiências e paixão pelos jogos. Além disso, queremos criar um espaço seguro e inclusivo para todos os jogadores, independentemente do nível de habilidade ou da plataforma de jogo que eles usam.</p>
+            </div>
+            <div class="col-md-4 service-box">
+              <h4>Funcionalidades</h4>
+              <p>Algumas das funcionalidades da Gather Arcade incluem perfis de usuário personalizados, bate-papo em grupo, fóruns de discussão, compartilhamento de imagens e vídeos de jogos, criação de eventos, e muitas outras opções que facilitam a interação entre jogadores.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section games -->
+      
+      <div class="container-section-game">
+        <div class="section">
+          <img src="img/DOTA 2.jpg" alt="Imagem 1">
+        </div>
+        <div class="section">
+          <p class="text-section">Liberte o poder dos antigos e torne-se uma lenda no mundo de Dota 2 - onde a estratégia é a chave, a ação é implacável e a glória é eterna!</p> 
+        </div>
+      </div>
+      
+      <div class="container-section-game">
+        <div class="section">
+          <p class="text-section">Construa, lute e vença - a batalha começa em Fortnite, o fenômeno dos jogos Battle Royale que vai levar sua adrenalina a novos patamares de diversão e competição!</p> 
+        </div>
+        <div class="section">
+          <img src="img/FORTNITE.jpg" alt="Imagem 2">
+        </div>
+      </div>
+
+      <div class="container-section-game">
+        <div class="section">
+          <img src="img/LOL.jpg" alt="Imagem 3">
+        </div>
+        <div class="section">
+          <p class="text-section">Entre na batalha, assuma o controle e faça história - em League of Legends, o mundo da competição épica e estratégia intensa espera por você. Junte-se aos lendários e torne-se um deles!</p> 
+        </div>
+      </div>
+
+      <div class="container-section-game">
+        <div class="section">
+          <p class="text-section">Domine a arte da precisão, junte-se a um time implacável e prove seu valor no campo de batalha em VALORANT - o jogo de tiro tático que testará suas habilidades e te levará a um novo nível de competição!</p> 
+        </div>
+        <div class="section">
+          <img src="img/VALORANT.jpg" alt="Imagem 4">
+        </div>
+      </div>
+
+    <!-- Footer da plataforma -->
+    <footer class="footer">
+      <div class="social-media-icons">
+        <a href="#" class="social-media-icon"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social-media-icon"><i class="fab fa-youtube"></i></a>
+        <a href="#" class="social-media-icon"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="social-media-icon"><i class="fab fa-facebook"></i></a>
+      </div>
+      <div class="copyright"><i class="fas fa-copyright"></i> 2023 Gather Arcade</div>
+    </footer>
+    
+  <!-- Scripts do projeto -->
+  <script src="js/scripts.js"></script>
+</body>
+</html>
