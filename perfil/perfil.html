@@ -81,24 +81,23 @@
                         <div class="post-avatar">
                             <img src="Fotos/league-of-legends_d152.jpeg" alt="Jogo League of Legends" height="70" width="70">
                         </div>
-                        <div class="post-nome">
-                            <h4>League of Legends</h4>
-                            <p>1 dia atrás</p>
-                            <button onclick="openPopup()">Efetuar Login</button>
-                            <!-- Pop-up -->
-                            <div id="popup" class="popup" style="display: none;">
-                                <div class="popup-content">
-                                    <span class="fechar" onclick="closePopup()">&times;</span>
-                                    <h2>Login</h2>
-                                    <form class="login-form" action="/login" method="POST">
-                                        <input type="text" name="username" placeholder="Usuário" required><br>
-                                        <input type="submit" value="Entrar">
-                                    </form>
-                                </div>
-                            </div>
+                       <div class="card-body">
+                        <h4 class="card-title">League of Legends</h4>
+                        <form>
+                          <div class="form-group">
+                            <input type="text" class="form-control" id="loluser" placeholder="Insira o nome do jogador">
+                          </div>
+                        </form>
+                        <div class="player-info">
+                          <img src="" id="img-thumbnail" width="45">
+                          <p id="lolnick"></p>
+                          <p id="loltier"></p>
+                          <p id="lolrank"></p>
                         </div>
+                      </div>
                     </div>
                 </div>
+                <div class="post">
                 <div class="post">
                     <div class="post-header">
                         <div class="post-avatar">
