@@ -8,32 +8,32 @@
     }
   
   /*container */
-    .navbar {
-      background-color: rgba(0, 0, 0, 0.3);
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      padding: 10px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      z-index: 999;
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 999;
   }
   
   .navbar-brand {
-      margin-left: 20px;
-      font-size: 20px;
-      font-weight: bold;
-  }
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
   
   .navbar .logout-button {
-      margin-right: 20px;
-      background-color: transparent;
-      border: none;
-      color: white;
-      font-size: 16px;
-      cursor: pointer;
+  margin-right: 20px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
   }
   
   .perfil-container { 
@@ -145,6 +145,12 @@
         margin-bottom: 5px;
       }
   
+  .card-title{
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+
   .post-nome p {
         font-size: 16px;
         color: #666;
@@ -213,11 +219,13 @@
     color: #fff;
     z-index: 9999;
     display: flex;
-    justify-content: space-around;
+    justify-content: end;
     align-items: center;
   }
   
   .navbar-brand {
+    position: absolute;
+    left: 5vw;
     font-weight: bold;
     font-size: 1.5em;
   }
@@ -276,5 +284,10 @@
   #lolrank {
     margin-top: 5px;
     display: block;
+  }
+
+  #botao-link{
+    text-decoration: none;
+    color: #fff;
   }
   

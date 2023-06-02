@@ -15,7 +15,7 @@ tweetButton.addEventListener('click', () => {
     const tweetElement = document.createElement('div');
     tweetElement.classList.add('tweet');
     tweetElement.innerHTML = `
-      <h3>Username</h3>
+      <h3>Narutinho</h3>
       <p>${tweet}</p>
       <small>${new Date().toLocaleString()}</small>
     `;  
