@@ -11,7 +11,7 @@ function closePopup() {
 
 document.addEventListener("DOMContentLoaded", function() {
   const loluser = document.querySelector("#loluser");
-  const API_KEY = "RGAPI-91c359c8-eb4e-4161-aac4-fa5a5cb6aee6";
+  const API_KEY = "RGAPI-ae5587d0-e93c-4ccb-90e5-6e3bacf87305";
   const options = {
     method: 'GET',
     mode: 'cors',
